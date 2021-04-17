@@ -47,16 +47,6 @@ const Footer = () => {
                   </button>
                 </Link>
               )}
-              <li className="nav-item">
-                {loggedInUser.email ? (
-                  <Link to="/adminDashboard" className="nav-link text-white">
-                    {" "}
-                    Admin Dashboard{" "}
-                  </Link>
-                ) : (
-                  <p> </p>
-                )}
-              </li>
             </ul>
           </div>
         </div>

@@ -18,6 +18,7 @@ const AddCourse = () => {
 
   const onSubmit = (data) => {
     const productData = {
+      email: data.Email,
       name: data.Name,
       price: data.Price,
       weight: data.Weight,
@@ -70,6 +71,14 @@ const AddCourse = () => {
         <div className="col-md-4 m-5 shadow p-3">
           <h3> Add your Course here </h3>
           <form onSubmit={handleSubmit(onSubmit)}>
+            <input
+              name="Email"
+              placeholder="Enter Email"
+              ref={register({ required: true })}
+            />
+
+            <p> Your Email Address </p>
+
             <input
               name="Name"
               placeholder="Enter Name"

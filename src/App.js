@@ -13,6 +13,10 @@ import AdminDashboard from "./components/Admin/AdminDashboard/AdminDashboard";
 import AddCourse from "./components/Admin/AddCourse/AddCourse";
 import ManageCourse from "./components/Admin/ManageCourse/ManageCourse";
 import PrivateRoute from "./components/Login/PrivateRoute/PrivateRoute";
+import CourseByUser from "./components/Admin/CourseByUser/CourseByUser";
+import EnrolledCourses from "./components/EnrolledCourses/EnrolledCourses";
+import MakeAdmin from "./components/Admin/MakeAdmin/MakeAdmin";
+
 export const UserContext = createContext();
 
 function App() {
@@ -32,14 +36,22 @@ function App() {
               </PrivateRoute>
               <PrivateRoute path="/adminDashboard">
                 <AdminDashboard> </AdminDashboard>
-              </PrivateRoute>
-
-              <PrivateRoute path="/addCourse">
+              </PrivateRoute>  
+              <Route path="/addCourse">
                 <AddCourse> </AddCourse>
-              </PrivateRoute>
-              <PrivateRoute path="/manageCourse">
+              </Route>
+              <Route path="/orderList">
+                <CourseByUser>  </CourseByUser>
+              </Route>
+              <Route path="/enrolledCourse">
+              <EnrolledCourses> </EnrolledCourses>
+              </Route>
+              <Route path="/makeAdmin">
+              <MakeAdmin>  </MakeAdmin>
+              </Route>
+              <Route path="/manageCourse">
                 <ManageCourse> </ManageCourse>
-              </PrivateRoute>
+              </Route>
               <PrivateRoute path="/userReview">
                 <UserReview> </UserReview>
               </PrivateRoute>

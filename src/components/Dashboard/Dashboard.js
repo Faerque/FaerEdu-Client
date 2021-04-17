@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import EnrolledCourses from "../EnrolledCourses/EnrolledCourses";
 import Sidebar from "../Sidebar/Sidebar";
 
 const Dashboard = () => {
@@ -19,7 +18,9 @@ const Dashboard = () => {
           <Sidebar> </Sidebar>
         </div>
         <div className="shadow mb-3 col-md-8 m-5">
-          <EnrolledCourses> </EnrolledCourses>
+          <h1> Click on Course List to check your courses </h1>
+          <br />
+          <h1> To give us a review click on review </h1>
           <Link to="/">
             {" "}
             <button className="shadow btn btn-outline-primary">

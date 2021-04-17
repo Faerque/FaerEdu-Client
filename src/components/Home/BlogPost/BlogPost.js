@@ -5,7 +5,7 @@ const BlogPost = (props) => {
     return (
         <div className="card shadow-sm " style={{margin: '8px'}} >
         <div className="card-header d-flex align-items-center">
-          <img className="mx-3" src={authorImg} alt="" />
+          <img className="mx-3" width="40px" src={authorImg} alt="" />
           <div>
             <h6 className="text-primary">{author}</h6>
             <p className="m-0">{date}</p>

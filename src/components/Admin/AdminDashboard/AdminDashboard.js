@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 import AdminSidebar from "../AdminSidebar/AdminSidebar";
-import CourseByUser from "../CourseByUser/CourseByUser";
+
 
 const AdminDashboard = () => {
  
@@ -23,8 +23,11 @@ const AdminDashboard = () => {
           </div>
         </div>
         <div className="col-md-10 p-3 my-5">
-          <div className="">
-            <CourseByUser> </CourseByUser>
+          <div className="text-right">
+           <h4> Welcome to Dashboard </h4>
+           <br/>
+         
+           
             <Link to="/">
               {" "}
               <button className="shadow btn btn-outline-primary">

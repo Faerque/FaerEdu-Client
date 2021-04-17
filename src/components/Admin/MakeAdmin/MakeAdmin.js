@@ -6,7 +6,7 @@ import AdminSidebar from "../AdminSidebar/AdminSidebar";
 const MakeAdmin = () => {
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = (data) => {
-    fetch("https://lit-hamlet-54538.herokuapp.com/addAdmin", {
+    fetch("https://lit-hamlet-54538.herokuapp.com/addCourse", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
@@ -40,7 +40,7 @@ const MakeAdmin = () => {
                 type="text"
                 ref={register({ required: true })}
                 name="email"
-                placeholder="exa"
+                placeholder="example@xyz.com"
                 className="form-control"
               />
               {errors.name && (

@@ -8,25 +8,25 @@ const blogData = [
       title: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore animi vero magnam nulla",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ",
-      author: "Mr. Khan",
+      author: "Mrs. Momina",
       authorImg: wilson,
-      date: "23 April 2019",
+      date: "23 April 2020",
     },
     {
       title: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore animi vero magnam nulla",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ",
-      author: "Mr. Khan",
+      author: "Mrs. Momina",
       authorImg: wilson,
-      date: "23 April 2019",
+      date: "23 April 2020",
     },
     {
       title: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore animi vero magnam nulla",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ",
-      author: "Mr. Khan",
+      author: "Mrs. Momina",
       authorImg: wilson,
-      date: "23 April 2019",
+      date: "23 April 2020",
     },
   ];
   

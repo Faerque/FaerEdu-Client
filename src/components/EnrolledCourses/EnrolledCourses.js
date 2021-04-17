@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { UserContext } from "../../App";
+import AdminSidebar from "../Admin/AdminSidebar/AdminSidebar";
 
 const EnrolledCourses = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -34,8 +35,12 @@ const EnrolledCourses = () => {
   };
 
   return (
-    <section>
-      <table className="">
+    <section className="container" >
+     <div className="row">
+       <div className="col-md-3 mt-5">
+         <AdminSidebar>  </AdminSidebar>
+       </div>
+     <table className="mt-5">
         <table className="table table-hover table-responsive ">
           <caption>Total Enrolled Course {enrolledCourse.length}</caption>
           <thead>
@@ -86,6 +91,7 @@ const EnrolledCourses = () => {
           </tbody>
         </table>
       </table>
+     </div>
     </section>
   );
 };

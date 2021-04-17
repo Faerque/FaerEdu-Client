@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { UserContext } from "../../App";
+import AdminSidebar from "../Admin/AdminSidebar/AdminSidebar";
 import Sidebar from "../Sidebar/Sidebar";
 
 const UserReview = () => {
@@ -37,7 +38,7 @@ const UserReview = () => {
       </nav>
       <div className="row">
         <div className="col-md-2 mt-5">
-          <Sidebar> </Sidebar>
+          <AdminSidebar> </AdminSidebar>
         </div>
         <div className="col-md-4 shadow mt-5">
           <div className="form-group">

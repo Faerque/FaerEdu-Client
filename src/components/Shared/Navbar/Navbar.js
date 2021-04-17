@@ -54,7 +54,7 @@ const Navbar = () => {
                                  </li>
                              <li className="nav-item">
                                 {loggedInUser.email ? (
-                                    <Link to="/dashboard" className="nav-link text-white"> Dashboard </Link>
+                                    <Link to="/adminDashboard" className="nav-link text-white"> Dashboard </Link>
                                 ) : <p>  </p>}
                                  </li>
                              
