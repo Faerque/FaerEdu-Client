@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-bg{
+    background-color: #55ffe5;
+    font-size: 14px;
+}
+.contact-box{
+    /* background-color: #fff; */
+}
+.contact-left{
+    background-color: rgb(255, 255, 255);
+    padding: 40px 60px;
+}
+.contact-right{
+    background-color: #fff;
+    padding: 40px 60px;
+}
+/* .contact-right{
+    background-color: #1c00b5;
+    /* padding: 40px; */
+    /* color: #fff; */
+
+.input-row{
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+
+}
+tr td:first-child{
+    padding: 20px;
+}

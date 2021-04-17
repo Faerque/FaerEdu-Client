@@ -1,0 +1,10 @@
+.donate-background{
+    background-color: rgb(183, 253, 250);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 947px;
+}
+.card-style{
+    background-color: rgba(251, 251, 251, 0.185);
+}
