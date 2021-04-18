@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
-    <section className="pt-5 pb-5 mb-5 contact-bg">
+    <section className="pt-5 pb-5 mb-5 contact-bg container">
       <div className="mx-4">
         <h4> Connect with us </h4>
         <p> Feel free to connect with us</p>
@@ -46,7 +46,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="contact-right d-md-block text-white col-md-5 bg-primary">
+        <div className="contact-right d-none d-md-block text-white col-md-5 bg-primary">
           <h3> Reach us </h3>
           <table>
             <tr>

@@ -47,7 +47,7 @@ const serviceData = [
 const Services = () => {
   return (
     <section className="services-container mt-5 mb-5" >
-         <Fade bottom cascade >
+         <Fade bottom  >
       <div className="text-center">
         <h4 style={{color: 'black'}} > Why FaerEdu+ ? </h4>
         <h1> Because we provide the best </h1>

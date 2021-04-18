@@ -37,21 +37,21 @@ function App() {
               <PrivateRoute path="/adminDashboard">
                 <AdminDashboard> </AdminDashboard>
               </PrivateRoute>  
-              <Route path="/addCourse">
+              <PrivateRoute path="/addCourse">
                 <AddCourse> </AddCourse>
-              </Route>
-              <Route path="/orderList">
+              </PrivateRoute>
+              <PrivateRoute path="/orderList">
                 <CourseByUser>  </CourseByUser>
-              </Route>
-              <Route path="/enrolledCourse">
+              </PrivateRoute>
+              <PrivateRoute path="/enrolledCourse">
               <EnrolledCourses> </EnrolledCourses>
-              </Route>
-              <Route path="/makeAdmin">
+              </PrivateRoute>
+              <PrivateRoute path="/makeAdmin">
               <MakeAdmin>  </MakeAdmin>
-              </Route>
-              <Route path="/manageCourse">
+              </PrivateRoute>
+              <PrivateRoute path="/manageCourse">
                 <ManageCourse> </ManageCourse>
-              </Route>
+              </PrivateRoute>
               <PrivateRoute path="/userReview">
                 <UserReview> </UserReview>
               </PrivateRoute>

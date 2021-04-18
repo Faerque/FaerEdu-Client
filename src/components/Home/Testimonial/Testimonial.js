@@ -4,11 +4,11 @@ import Fade from 'react-reveal/Fade';
 const Testimonial = ({testimonial}) => {
     return (
         <Fade bottom cascade>
-        <div className="card shadow-sm" style={{margin: '10px'}} >
-        <div className="card-body">
-            <p className="card-text text-center "> {testimonial.review} </p>
+        <div className="shadow-sm mx-auto " style={{margin: '4px'}} >
+        <div className="card-body ">
+            <p className="d-flex col-2 "> {testimonial.review} </p>
         </div>
-        <div className="d-flex mx-auto m-3">
+        <div className="d-flex mb-3 align-items-right m-3">
             <img src={testimonial.image} alt="" width="60" className="mx-3"/>
             <div> 
                 <h6 className="text-primary" >

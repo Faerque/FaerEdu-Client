@@ -2,10 +2,10 @@ import React from "react";
 import Footer from "../../Shared/Footer/Footer";
 import Navbar from "../../Shared/Navbar/Navbar";
 import Blog from "../Blog/Blog";
+import Consultation from "../Consultation/Consultation";
 import Contact from "../Contact/Contact";
 import FeaturedCourse from "../FeaturedCourse/FeaturedCourse";
 import Services from "../Services/Services";
-
 
 import Testimonials from "../Testimonials/Testimonials";
 
@@ -15,11 +15,11 @@ const Home = () => {
       <Navbar> </Navbar>
       <Services> </Services>
       <FeaturedCourse> </FeaturedCourse>
-      <Testimonials>  </Testimonials>
-      <Blog>  </Blog>
-      
+      <Testimonials> </Testimonials>
+      <Blog> </Blog>
+      <Consultation> </Consultation>
       <Contact> </Contact>
-      <Footer>  </Footer>
+      <Footer> </Footer>
     </div>
   );
 };

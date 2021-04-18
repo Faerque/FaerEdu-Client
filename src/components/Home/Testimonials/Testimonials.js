@@ -14,20 +14,21 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section className="testimonials my-5 py-5">
-      <div className="container">
+    <section className="testimonials container mt-5 mb-5">
+      <div className="">
         <div className="section-header">
-          <h5 className="text-primary"> TESTIMONIALS </h5>
           <h1 style={{ color: "#3D4457" }}>
             {" "}
-            What's Our Students <br /> Says{" "}
+            What's Our Students <br /> <span className="text-primary"> Says,</span>{" "}
           </h1>
         </div>
-        <div className="card-deck d-flex mt-5">
+       <div className="d-flex justify-content-center">
+       <div className="w-75 row pt-4">
           {reviews.map((testimonial) => (
             <Testimonial testimonial={testimonial}> </Testimonial>
           ))}
         </div>
+       </div>
       </div>
     </section>
   );

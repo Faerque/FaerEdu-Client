@@ -75,7 +75,7 @@ const EnrolledCourses = () => {
                 <td>{enrolledCourse.phone}</td>
                 <td>{enrolledCourse.email}</td>
                 <td>{enrolledCourse.courseName}</td>
-                <td>{enrolledCourse.courseStatus}</td>
+                <td>{enrolledCourse.status}</td>
                 <td>
                   {" "}
                   <button
