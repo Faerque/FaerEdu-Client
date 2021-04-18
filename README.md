@@ -12,19 +12,77 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+### Hi there, I'm Md. Omar Faruk 👋
+
+### FaerEdu+
+This is an event management type website. It’s developed by React, MongoDB, Firebase, JS, ES6, React-Router, React-Hooks, React-custom-hook, Html, CSS and Material UI.
+
+
+### Link: https://faeredu.web.app/
+
+### Features
+-	Different Link for user and admin Panel and User
+-	Adding Option for an admin
+-	Making admin option available 
+-	User information are saved in both user and admin control panel.
+-	Any User Event participation can be removed by admin
+-	Status can be updated by Admin
+-	Fully Responsive with sign-in/up feature
+
+<br />
+<br />
+<br />
+
+---
+
+## I'm a web developer, programmer and a student!!
+
+-  All of my projects are well managed and well organized
+-  I’m trying to join a team to get knowledge about team work
+-  2021 Goals: Developing more and more projects and learning new programming languages
+-  Fun fact: I love to play Video Games
+-  Education: Studying Computer Science and East Delta University Chattogram- Bangladesh
+
+### Connect with me:
+
+
+[twitter]: https://twitter.com/Omafaer
+[linkedin]: https://www.linkedin.com/in/faeruqe/
+
+
+<br />
+<br />
+<br />
+<br />
+
+---
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -47,25 +105,24 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
 ### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
 ### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
 ### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# complete-website-client-Faerque
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
