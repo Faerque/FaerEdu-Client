@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { Link } from 'react-router-dom';
-
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
   return (
@@ -12,9 +12,12 @@ const Contact = () => {
       </div>
       <div className="contact-box d-flex">
         <div className="contact-left mx-4 col-md-6 ">
+          <Fade> 
           <h4> What's your thought?  </h4>
           <br />
+          </Fade>
           <form action="">
+            <Fade right cascade>
             <div className="input-row">
               <div className="input-group">
                 <label htmlFor="Name">Name</label>
@@ -44,11 +47,13 @@ const Contact = () => {
             <button type="submit" className="btn btn-outline-primary shadow-lg ">
               SEND
             </button>
+            </Fade>
           </form>
         </div>
         <div className="contact-right d-none d-md-block text-white col-md-5 bg-primary">
           <h3> Reach us </h3>
           <table>
+            <Fade bottom cascade>
             <tr>
               <td> <h4> Email: </h4> </td>
               <td>FaerEdu@contact.com</td>
@@ -63,6 +68,7 @@ const Contact = () => {
                 Chattgram, Bangladesh Agrabad, Housing State, 4234
               </td>
             </tr>
+            </Fade>
           </table>
         </div>
       </div>
