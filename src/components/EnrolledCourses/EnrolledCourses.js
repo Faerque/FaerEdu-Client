@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { UserContext } from "../../App";
 import AdminSidebar from "../Admin/AdminSidebar/AdminSidebar";
 
@@ -37,6 +38,14 @@ const EnrolledCourses = () => {
   return (
     <section className="container" >
      <div className="row">
+     <nav class="navbar navbar bg-light">
+          <Link className="navbar-brand  mx-5 " to="/">
+            <h2>
+              {" "}
+              <span className="text-primary">FaerEdu+</span>
+            </h2>
+          </Link>
+        </nav>
        <div className="col-md-3 mt-5">
          <AdminSidebar>  </AdminSidebar>
        </div>

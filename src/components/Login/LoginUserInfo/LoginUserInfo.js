@@ -24,7 +24,7 @@ const LoginUserInfo = () => {
               <h3> Logged in user Email: {loggedInUser.email} </h3>
             </div>
             <div className=" mx-5 mb-5">
-                <Link  style={{ textDecoration: "none" }} to='/dashboard'> <button className="btn btn-outline-success"> Go to Your Dashboard </button> </Link>
+                <Link  style={{ textDecoration: "none" }} to='/enrolledCourse'> <button className="btn btn-outline-success"> Go to Your Dashboard </button> </Link>
               <br/>
               <br/>
               <button
